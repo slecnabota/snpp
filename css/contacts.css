@@ -1,0 +1,192 @@
+@import 'header.css';
+@import 'footer.css';
+@import 'dropdownmenu.css';
+@import 'asidemenu.css';
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Cormorant Garamond", serif;
+}
+a {
+  text-decoration: none;
+}
+.nav_container {
+  padding: 0 15%;
+}
+.container {
+  padding: 0 15%;
+}
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5px;
+}
+/**header**/
+/**dropmenu**/
+/**main**/
+main {
+  margin-top: 100px;
+}
+.main_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.title {
+  font-weight: 600;
+  font-size: 1.9rem;
+  margin-left: 30px;
+}
+.rekviziti {
+  background-color: #f7f7f7;
+  border: 2px solid #EBEBEB;
+  border-radius: 16px;
+  width: 500px;
+  padding: 30px 30px 0 30px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  height: 50%;
+}
+.feedback {
+  background-color: #f7f7f7;
+  border: 2px solid #EBEBEB;
+  border-radius: 16px;
+  width: 500px;
+  padding: 30px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  height: 100%;
+}
+.heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.subheading {
+  width: 50%;
+  font-size: 1.1rem;
+  font-weight: 500;
+  margin-bottom: 50px;
+  color: #383838;
+}
+.subheading span {
+  font-size: 1.2rem;
+  font-weight: 700;
+  display: block;
+  margin-top: 5px;
+  color: #000;
+}
+.subheading span a {
+  color: #000;
+}
+.subheading span a:hover {
+  color: #d4a113;
+}
+.subtitle {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #000;
+  margin-top: 20px;
+}
+hr {
+  margin-top: 20px;
+  border: none;
+  border-top: 1px dotted rgba(0, 0, 0, 0.425);
+}
+.input {
+  display: block;
+  width: 100%;
+  outline: none;
+  padding: 15px;
+  margin-top: 20px;
+  border: 2px solid #EBEBEB;
+  border-radius: 16px;
+}
+.textarea {
+  margin: 20px 0;
+  outline: none;
+  padding: 15px;
+  border: 2px solid #EBEBEB;
+  border-radius: 16px;
+  height: 150px;
+  width: 100%;
+}
+.btn {
+  font-family: "Cormorant Garamond", serif;
+  border: 2px solid #EBEBEB;
+  background: #e0e0e0;
+  border-radius: 16px;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.main_text {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.map {
+  margin: 30px 0 0 0;
+  width: 100% !important;
+  height: 45% !important;
+}
+/**footer**/
+@media(max-width:1465px){
+  .container{
+    padding: 0 10%;
+  }
+}
+@media(max-width:1275px){
+  .container{
+    padding: 0 8%;
+  }
+}
+@media(max-width:1208px){
+  .container{
+    padding: 0 6%;
+  }
+}
+@media(max-width:1165px){
+  .container{
+    padding: 0 4%;
+  }
+}
+@media(max-width:1110px){
+  .title{
+    text-align: center;
+    margin-left: 0;
+  }
+  .main_wrapper{
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media(max-width:600px){
+  .wrapper{
+    width: 100%;
+    text-align: center;
+  }
+  .subheading{
+    width: 100%;
+  }
+  .main_text{
+    flex-direction: column;
+  }
+  .feedback{
+    width: 100%;
+  }
+  .rekviziti{
+    width: 100%;
+  }
+  .container{
+    padding: 0 8%;
+  }
+}

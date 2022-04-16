@@ -1,0 +1,169 @@
+.footer .container{
+  padding: 0 5% !important;
+}
+.footer {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    background-color: #212b37;
+    height: 150px;
+    color: white;
+}
+.footer-left {
+  text-align: center;
+}
+.footer-center {
+  display: flex;
+  justify-content: center;
+}
+.footer-center .nav_link {
+  margin-right: 0;
+  display: block;
+  margin-top: 5px;
+}
+.footer-center .nav_link:first-child {
+  margin-top: 0;
+}
+.footer-right {
+  align-items: center;
+}
+.footer-links {
+  margin-right: 150px;
+}
+.footer-links:last-child {
+  margin-right: 0;
+}
+.footer_logo {
+  font-weight: 600;
+  font-size: 34px;
+}
+.logo_info {
+  font-weight: 500;
+  font-size: 20px;
+}
+.footer_social-media {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+.footer_social-media a {
+  cursor: pointer;
+  margin-right: 30px;
+  transition: all 0.35s ease-out;
+}
+.footer_social-media a img {
+  width: 40px;
+}
+.footer_social-media a:last-child {
+  margin-right: 0;
+}
+.footer_social-media a:hover {
+  transform: scale(1.1);
+}
+.btn-click {
+  background: transparent;
+  width: 100%;
+  cursor: pointer;
+  border: 2px solid white;
+  border-radius: 25px;
+  padding: 5px;
+}
+.btn-click a {
+  font-family: "Cormorant Garamond", serif;
+  color: white;
+  font-weight: 700;
+  font-size: 1.1rem;
+  transition: all 0.35s ease-out;
+}
+.btn-click a:hover {
+  color: skyblue;
+}
+.footer-wrapper {
+  padding-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@media(max-width:940px){
+  .footer-links {
+    margin-right: 70px;
+  }
+}
+@media(max-width:770px){
+  .footer{
+    height: 100%;
+    padding-bottom: 30px;
+  }
+  .footer-wrapper{
+    flex-wrap: wrap;
+  }
+  .btn-click{
+    width: 200px;
+  }
+  .footer-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 40px;
+  }
+  .footer_social-media{
+    margin-top: 0;
+  }
+  .footer_social-media a{
+    margin-right: 50px;
+  }
+  .footer_social-media a:last-child{
+    margin-right: 35px;
+  }
+}
+@media(max-width:570px){
+  .footer-links{
+    margin-right: 30px;
+  }
+  .footer_social-media a{
+    margin-right: 40px;
+  }
+}
+@media(max-width:525px){
+  .footer-links{
+    margin-right: 30px;
+  }
+  .footer_social-media a{
+    margin-right: 20px;
+  }
+  .footer_social-media a:last-child{
+    margin-right: 0;
+  }
+}
+@media(max-width:465px){
+  .footer-links{
+    margin-right: 10px;
+  }
+}
+@media(max-width:435px){
+  .footer_logo {
+    font-size: 28px;
+  }
+  .footer-left{
+    margin: 0 auto;
+  }
+  .footer-links{
+    margin-right: 50px;
+  }
+  .footer-center{
+    margin-top: 30px;
+    width: 100%;
+  }
+}
+@media(max-width:411px){
+  .footer{
+    padding-bottom: 10px;
+  }
+  .footer-right{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .footer_social-media{
+    margin-top: 20px;
+  }
+}

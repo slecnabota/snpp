@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </script>
+    <link rel="stylesheet" href="../css/menu/sweets.css">
+    <link rel="stylesheet" href="../css/menu/modal.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>SnP | Запеченные роллы</title>
+</head>
+<body>
+    <header class="header">
+        <div class="nav_container">
+            <nav class="nav">
+                    <div class="nav_left">
+                        <a href="../index.html" class="nav_left-logo">SnP<span>Sushi & Pizza</span></a>
+                    </div>
+                    <div class="nav_cart-list">
+                        <div class="nav_right">
+                            <div class="dropdown">
+                                <button class="dropbtn"><a href="menu.html"> Меню</a></button>
+                                <div class="dropdown-content">
+                                    <a href="sets.html" class="menu-links">Сеты</a>
+                                    <a href="backed.html" class="menu-links">Запеченные роллы</a>
+                                    <a href="hot.html" class="menu-links">Горячие роллы</a>
+                                    <a href="pizza.html" class="menu-links">Пицца</a>
+                                    <a href="hotsnaks.html" class="menu-links">Горячие закуски</a>
+                                    <a href="classic.html" class="menu-links">Классические роллы</a>
+                                    <a href="soup.html" class="menu-links">Супы</a>
+                                    <a href="salad.html" class="menu-links">Салаты</a>
+                                    <a href="drinks.html" class="menu-links">Напитки</a>
+                                    <a href="souces.html" class="menu-links">Соусы</a>
+                                    <a href="sweets.html" class="menu-links">Вкусности</a>
+                                </div>
+                            </div>
+                            <a href="../dostavka.html" class="nav_link">Оплата и Доставка</a>
+                            <a href="../vakansii.html" class="nav_link">Вакансии</a>
+                            <a href="../contacts.html" class="nav_link">Контакты</a>
+                        </div>
+                        <img src="../img/reorder_white_24dp.svg" alt="" class='menubar' id='menu'>
+                        <div class="header__cart cart active" tabindex="0">
+                            <div class="cart__text">Корзина <span class="cart__quantity">0</span></div>
+                            <div class="cart__content">
+                                <ul class="cart-content__list" data-simplebar>
+                                    <!--<li class="cart-content__item" >
+                                        <article class="cart-content__product cart-product">
+                                            <img src="../img/backed/img1.jpg" alt="backed" class='image__item'>
+                                            <div class="cart-product__text">
+                                                <h3 class="cart-product__title">Мексика</h3>
+                                                <span class="cart-product__price">1100 ₸</span>
+                                            </div>
+                                            <button class="cart-product__delete"></button>
+                                        </article> 
+                                    </li>-->
+                                </ul>
+                                <div class="cart-content__bottom">
+                                    <div class="cart-content__fullprice">
+                                        <p>Итого:</p>
+                                        <p class="fullprice"></p>
+                                    </div>
+                                    <button class="cart-content_btn btn" data-graph-path="modal" data-graph-animation="fadeInUp">Перейти в корзину</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </nav>
+        </div>
+</header>
+    <main>
+        <section class="menu">
+            <div class="container">
+                <aside class="aside asidelist">
+                    <a href="menu.html" class="title">Каталог</a>
+                    <div class="aside_wrapper">
+                        <a href="sets.html">
+                            <div class="aside-items">
+                                <div class="img_aside aside_1"></div>
+                                <p class="heading">Сеты</p>
+                            </div>
+                        </a>
+                        <a href="backed.html">
+                            <div class="aside-items">
+                                <div class="img_aside aside_2"></div>
+                                <p class="heading">Запеченные роллы</p>
+                            </div>
+                        </a>
+                        <a href="hot.html">
+                            <div class="aside-items">
+                                <div class="img_aside aside_3"></div>
+                                <p class="heading">Горячие роллы</p>
+                            </div>
+                        </a>
+                        <a href="pizza.html">
+                            <div class="aside-items">
+                                <div class="img_aside aside_4"></div>
+                                <p class="heading">Пицца</p>
+                            </div>
+                        </a>
+                        <a href="classic.html">
+                            <div class="aside-items">
+                                <div class="img_aside aside_5"></div>
+                                <p class="heading">Классические роллы</p>
+                            </div>
+                        </a>
+                        <a href="hotsnaks.html">
+                            <div class="aside-items">
+                                <div class="img_aside aside_6"></div>
+                                <p class="heading">Горячие закуски</p>
+                            </div>
+                        </a>
+                        <a href="soup.html">
+                            <div class="aside-items">
+                                <div class="img_aside aside_7"></div>
+                                <p class="heading">Супы</p>
+                            </div>
+                        </a>
+                        <a href="salad.html">
+                            <div class="aside-items">
+                                <div class="img_aside aside_8"></div>
+                                <p class="heading">Салаты</p>
+                            </div>
+                        </a>
+                        <a href="drinks.html">
+                            <div class="aside-items">
+                                <div class="img_aside aside_9"></div>
+                                <p class="heading">Напитки</p>
+                            </div>
+                        </a>
+                        <a href="souces.html">
+                            <div class="aside-items">
+                                <div class="img_aside aside_10"></div>
+                                <p class="heading">Соусы</p>
+                            </div>
+                        </a>
+                        <a href="sweets.html">
+                            <div class="aside-items">
+                                <div class="img_aside aside_11"></div>
+                                <p class="heading">Вкусности</p>
+                            </div>
+                        </a>
+                    </div>
+                </aside>
+                <ul class="product-grid">
+                    <li class="product-grid__item">
+                        <article class="product">
+                            <img src="../img/sweets/chocolate.jpg" alt="" class="product__image">
+                            <hr>
+                            <h3 class="product__title">
+                                <span>Шоколадное мороженое</span>
+                            </h3>
+                            <div class="product__info">
+                                <span class="product__weight">Вес:</span>
+                                <span class="product__amount">400г.</span>
+                            </div>
+                            <div class="product__price product-price">
+                                <span class="product-price__current">800 ₸</span>
+                            </div>
+                            <button class="product__btn btn">Добавить в корзину</button>
+                        </article>
+                    </li>
+                    <li class="product-grid__item">
+                        <article class="product">
+                            <img src="../img/sweets/clubnika.jpeg" alt="" class="product__image">
+                            <hr>
+                            <h3 class="product__title">
+                                <span>Клубничное мороженое</span>
+                            </h3>
+                            <div class="product__info">
+                                <span class="product__weight">Вес:</span>
+                                <span class="product__amount">400г.</span>
+                            </div>
+                            <div class="product__price product-price">
+                                <span class="product-price__current">800 ₸</span>
+                            </div>
+                            <button class="product__btn btn">Добавить в корзину</button>
+                        </article>
+                    </li>
+                    <li class="product-grid__item">
+                        <article class="product">
+                            <img src="../img/sweets/clubniponchik.jpg" alt="" class="product__image">
+                            <hr>
+                            <h3 class="product__title">
+                                <span>Клубничный пончик</span>
+                            </h3>
+                            <div class="product__info">
+                                <span class="product__weight">Вес:</span>
+                                <span class="product__amount">300г.</span>
+                            </div>
+                            <div class="product__price product-price">
+                                <span class="product-price__current">500 ₸</span>
+                            </div>
+                            <button class="product__btn btn">Добавить в корзину</button>
+                        </article>
+                    </li>
+                    <li class="product-grid__item">
+                        <article class="product">
+                            <img src="../img/sweets/donut.png" alt="" class="product__image">
+                            <hr>
+                            <h3 class="product__title">
+                                <span>Шоколадный пончик</span>
+                            </h3>
+                            <div class="product__info">
+                                <span class="product__weight">Вес:</span>
+                                <span class="product__amount">300г.</span>
+                            </div>
+                            <div class="product__price product-price">
+                                <span class="product-price__current">500 ₸</span>
+                            </div>
+                            <button class="product__btn btn">Добавить в корзину</button>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <div class="modal">
+        <div class="modal__container order-modal" role="dialog" aria-modal="true" data-graph-target="modal">
+            <div class="modal-content order-modal__content">
+                <div class="order-modal__top">
+                    <h2 class="order-modal__title">Оформление заказа</h2>
+                    <span class="order-modal__number">Заказ № 3456 67</span>
+                </div>
+                <div class="order-modal__info">
+                    <div class="order-modal__quantity order-modal__info-item">Товаров в заказе: <span>3 шт</span></div>
+                    <div class="order-modal__summ order-modal__info-item">Общая сумма заказа: <span>568 789 ₽</span></div>
+                    <div class="order-modal__products order-modal__info-item">
+                        <button class="order-modal__btn">Состав заказа</button>
+                        <ul class="order-modal__list">
+                            
+                        </ul>
+                    </div>
+                </div>
+                <form action="#" class="order-modal__form order">
+                    <input type="hidden" name="theme" value="Обратный звонок">
+                    <input type="hidden" name="admin_email[]" value="maxgraph23@gmail.com">
+                    <input type="hidden" name="form_subject" value="Заявка с сайта Сайт">
+                    <label class="order__label">
+                        <span class="order__text">Ваше имя</span>
+                        <input type="text" name="Имя" class="order__input">
+                    </label>
+                    <label class="order__label">
+                        <span class="order__text">Номер телефона</span>
+                        <input type="tel" name="Телефон" class="order__input" placeholder="+7 (___)___-__-__">
+                    </label>
+                    <label class="order__label">
+                        <span class="order__text">Ваша эл.почта</span>
+                        <input type="email" name="Email" class="order__input" placeholder="post@gmail.com">
+                    </label>
+                    <button class="order__btn btn">Оформить заказ</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="animation"></div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-left">
+                    <p class="footer_logo">©2022, SnP</p>
+                    <p class="logo_info">Sushi and Pizza</p>
+                </div>
+                <div class="footer-center">
+                    <div class="footer-links">
+                        <a href="menu.html" class="nav_link">Меню</a>
+                        <a href="dostavka.html" class="nav_link">Контакты</a>
+                    </div>
+                    <div class="footer-links">
+                        <a href="vakansii.html" class="nav_link">Вакансии</a>
+                        <a href="contacts.html" class="nav_link">Оплата и Доставка</a>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <button class="btn-click"><a href="tel:87083710375">Свяжитесь с нами</a></button>
+                    <div class="footer_social-media">
+                        <a href="https://www.facebook.com/" class="facebook"><img src="../img/footer/icons8-facebook-50.png" alt="" class="fb-img"></a>
+                        <a href="https://vk.com/slecnabota" class="vk"><img src="../img/footer/icons8-вконтакте-50.png" alt="" class="vk-img"></a>
+                        <a href="https://www.instagram.com/slecna_bota/" class="instagram"><img src="../img/footer/icons8-instagram-50.png" alt="" class="insta-img"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>    
+    <aside class="aside_menu_bar " id="aside">
+        <div class="aside-backdrop" id="aside-backdrop"></div>
+        <div class="aside-inner">
+            <a href="menu.html" class="nav_link"> Меню</a>
+            <a href="../dostavka.html" class="nav_link">Оплата и Доставка</a>
+            <a href="../vakansii.html" class="nav_link">Вакансии</a>
+            <a href="../contacts.html" class="nav_link">Контакты</a>
+        </div>
+    </aside>
+    <script src="../js/aside.js"></script>
+    <script src="../js/modal.js"></script>
+    <script src="../js/cart.js"></script>
+    <script src="../js/simplebar.js"></script>
+</body>
+</html>

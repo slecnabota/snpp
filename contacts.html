@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=60d9ce57-c059-4dfe-b791-2e0b8f65fb5f&lang=ru_RU" type="text/javascript">
+    </script>
+    <link rel="stylesheet" href="css/contacts.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <title>SnP | Контакты</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navigation">
+            <div class="nav_container">
+                <div class="nav-wrapper">
+                    <div class="nav_left">
+                        <a href="index.html" class="nav_left-logo">SnP<span>Sushi & Pizza</span></a>
+                    </div>
+                    <img src="img/toc_white_24dp.svg" alt="" class='menu' id='menu'>
+                    <div class="nav_right">
+                        <div class="dropdown">
+                            <button class="dropbtn"><a href="./menu/menu.html"> Меню</a></button>
+                            <div class="dropdown-content">
+                                <a href="./menu/sets.html" class="menu-links">Сеты</a>
+                                <a href="./menu/backed.html" class="menu-links">Запеченные роллы</a>
+                                <a href="./menu/hot.html" class="menu-links">Горячие роллы</a>
+                                <a href="./menu/pizza.html" class="menu-links">Пицца</a>
+                                <a href="./menu/hotsnaks.html" class="menu-links">Горячие закуски</a>
+                                <a href="./menu/classic.html" class="menu-links">Классические роллы</a>
+                                <a href="./menu/soup.html" class="menu-links">Супы</a>
+                                <a href="./menu/salad.html" class="menu-links">Салаты</a>
+                                <a href="./menu/drinks.html" class="menu-links">Напитки</a>
+                                <a href="./menu/souces.html" class="menu-links">Соусы</a>
+                                <a href="./menu/sweets.html" class="menu-links">Вкусности</a>
+                            </div>
+                        </div>
+                        <a href="dostavka.html" class="nav_link">Оплата и Доставка</a>
+                        <a href="vakansii.html" class="nav_link">Вакансии</a>
+                        <a href="contacts.html" class="nav_link">Контакты</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="main">
+            <div class="container">
+               <h1 class="title">Контакты</h1> 
+               <div class="main_wrapper">
+                   <div class="wrapper">
+                    <div class="rekviziti">
+                        <p class="heading">Реквизиты</p>
+                         <div class="main_text">
+                             <p class="subheading">Название компании<span>SnP - Sushi & Pizza</span></p>
+                             <p class="subheading">Адрес<span>г.Алматы, ул.Сейфуллина, д.35</span></p>
+                             <p class="subheading">ИИН<span>77777777</span></p>
+                             <p class="subheading">Наш телефон<span><a href="tel:87083710375">+77083710375</a></span></p>
+                         </div>
+                    </div>
+                    <div class="map" id="map">
+ 
+                    </div>
+                   </div>
+                   <div class="feedback">
+                       <p class="heading">Обратная связь</p>
+                       <p class="subtitle">Вы можете написать нам сообщение, воспользовавшись формой ниже</p>
+                       <hr class="hr">
+                       <form>
+                            <input type="text" class="name input" placeholder="Ваше имя">
+                            <input type="text" class="telephone input"  placeholder="Ваш телефон">
+                            <input type="text" class="email input" placeholder="Ваш e-mail">
+                            <p><textarea name="text" class="textarea" placeholder="Текст сообщения"></textarea></p>
+                            <button type='submit' class="btn">Отправить</button>
+                        </form>
+                    </div>
+               </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <div class="animation"></div>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-left">
+                    <p class="footer_logo">©2022, SnP</p>
+                    <p class="logo_info">Sushi and Pizza</p>
+                </div>
+                <div class="footer-center">
+                    <div class="footer-links">
+                        <a href="menu.html" class="nav_link">Меню</a>
+                        <a href="dostavka.html" class="nav_link">Контакты</a>
+                    </div>
+                    <div class="footer-links">
+                        <a href="vakansii.html" class="nav_link">Вакансии</a>
+                        <a href="contacts.html" class="nav_link">Оплата и Доставка</a>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <button class="btn-click"><a href="tel:87083710375">Свяжитесь с нами</a></button>
+                    <div class="footer_social-media">
+                        <a href="https://www.facebook.com/" class="facebook"><img src="img/footer/icons8-facebook-50.png" alt="" class="fb-img"></a>
+                        <a href="https://vk.com/slecnabota" class="vk"><img src="img/footer/icons8-вконтакте-50.png" alt="" class="vk-img"></a>
+                        <a href="https://www.instagram.com/slecna_bota/" class="instagram"><img src="img/footer/icons8-instagram-50.png" alt="" class="insta-img"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <aside class="aside_menu_bar" id="aside">
+        <div class="aside-backdrop" id="aside-backdrop"></div>
+        <div class="aside-inner">
+            <a href="./menu/menu.html" class="nav_link"> Меню</a>
+            <a href="dostavka.html" class="nav_link">Оплата и Доставка</a>
+            <a href="vakansii.html" class="nav_link">Вакансии</a>
+            <a href="contacts.html" class="nav_link">Контакты</a>
+        </div>
+    </aside>
+    <script src="js/aside.js"></script>
+</body>
+</html>
