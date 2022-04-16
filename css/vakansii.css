@@ -1,0 +1,232 @@
+@import 'header.css';
+@import 'footer.css';
+@import 'dropdownmenu.css';
+@import 'asidemenu.css';
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Cormorant Garamond", serif;
+}
+a {
+  text-decoration: none;
+}
+.nav_container {
+  padding: 0 15%;
+}
+.container {
+  padding: 0 10%;
+}
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 5px;
+}
+.title {
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: black;
+}
+.hidden{
+  display:none !important;
+}
+/**header**/
+/**dropmenu**/
+/**main**/
+main {
+  margin-top: 100px;
+}
+.heading {
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: center;
+}
+.vakansii{
+  margin-bottom: 50px;
+}
+.vakansii_cards_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.vakansii_card {
+  border: 2px solid #EBEBEB;
+  border-radius: 16px;
+  padding: 20px 15px;
+  margin-top: 40px;
+  width: 30%;
+}
+.bg_img {
+  height: 150px;
+  width: 100%;
+}
+.bg_img-1 {
+  background: url("../img/vakansii/povar.jpg") no-repeat center center;
+  background-size: cover;
+}
+.bg_img-2 {
+  background: url("../img/vakansii/sushimaster.jpg") no-repeat center center;
+  background-size: cover;
+}
+.bg_img-3 {
+  background: url("../img/vakansii/robota_sposob_700.jpg") no-repeat center center;
+  background-size: cover;
+}
+.bg_img-4 {
+  background: url("../img/vakansii/kassir.jpg") no-repeat center center;
+  background-size: cover;
+}
+.bg_img-5 {
+  background: url("../img/vakansii/administrator-restorana-rabota.jpg") no-repeat center center;
+  background-size: cover;
+}
+.bg_img-6 {
+  background: url("../img/vakansii/promo.jpg") no-repeat center center;
+  background-size: cover;
+}
+.text {
+  height: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.money {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.schedule {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.exprerience {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+.button {
+  text-align: center;
+  display: block;
+  cursor: pointer;
+  color: black;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border: 2px solid #212b37;
+  border-radius: 25px;
+  padding: 10px 0;
+}
+.advantages_wrapper {
+  border: 2px solid #EBEBEB;
+  border-radius: 16px;
+  padding: 15px 25px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.advant_card {
+  width: 29%;
+}
+.info {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 20px;
+  color: #575654;
+}
+.more_info {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.4rem;
+  margin-bottom: 50px;
+}
+.button_more{
+  cursor: pointer;
+  font-family: "Cormorant Garamond", serif;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.1rem;
+  width: 350px;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid rgb(0, 0, 0);
+  border-radius: 25px;
+  padding: 12px 20px;
+  background: rgba(0, 0, 0, 0.178);
+}
+/**/
+/**footer**/
+@media(max-width:1260px){
+  .advantages_wrapper{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .advant_card{
+    width: 100%;
+  }
+  .schedule {
+    font-size: 1.1rem;
+  }
+  .title {
+    font-size: 1.4rem;
+  }
+}
+@media(max-width:1125px){
+  .title {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
+}
+@media(max-width:1000px){
+  .more_info{
+    font-size: 1.2rem;
+  }
+  .text{
+    text-align: center;
+  }
+  .vakansii_card{
+    width: 45%;
+  }
+}
+@media(max-width:830px){
+  .container{
+    padding: 0 8%;
+  }
+}
+@media(max-width:685px){
+  .button_more{
+    width: 50%;
+  }
+  .more_info{
+    font-size: 1rem;
+  }
+  .vakansii_card{
+    margin-top: 30px;
+  }
+  .heading{
+    font-size: 1.6rem;
+  }
+  .info{
+    font-size: 1rem;
+  }
+  .vakansii_card{
+    width: 60%;
+  }
+  .vakansii_cards_wrapper{
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media(max-width:510px){
+  .button_more{
+    width: 100%;
+  }
+  .vakansii_card{
+    width: 100%;
+  }
+}

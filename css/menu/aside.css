@@ -1,0 +1,95 @@
+.asidelist {
+    width: 30%;
+    border: 1px solid rgba(196, 198, 209, 0.582);
+    box-shadow: 1px 4px 7px rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    padding: 30px 10px;
+    margin-left: -20px;
+    height: 100%;
+  }
+  aside a, aside div {
+    cursor: pointer;
+  }
+  .aside_wrapper a {
+    color: black;
+    transition: all 0.35s ease-out;
+  }
+  .aside_wrapper a:hover {
+    color: skyblue;
+  }
+  .aside-items {
+    display: flex;
+    align-items: center;
+  }
+  .img_aside {
+    width: 170px !important;
+    height: 70px !important;
+  }
+  .heading {
+    width: 100%;
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-left: 20px;
+  }
+  .aside_1 {
+    background: url("../../img/menu/sets.png") no-repeat;
+    background-size: cover;
+  }
+  .aside_2 {
+    background: url("../../img/menu/backed.png") no-repeat;
+    background-size: cover;
+  }
+  .aside_3 {
+    background: url("../../img/menu/hot.png") no-repeat;
+    background-size: cover;
+  }
+  .aside_4 {
+    background: url("../../img/menu/pizza.jpg") no-repeat;
+    background-size: cover;
+  }
+  .aside_5 {
+    background: url("../../img/menu/classic.png") no-repeat;
+    background-size: cover;
+  }
+  .aside_6 {
+    background: url("../../img/menu/hot_snack.png") no-repeat;
+    background-size: cover;
+  }
+  .aside_7 {
+    background: url("../../img/menu/soup.png") no-repeat;
+    background-size: cover;
+  }
+  .aside_8 {
+    background: url("../../img/menu/salad.png") no-repeat;
+    background-size: cover;
+  }
+  .aside_9 {
+    background: url("../../img/menu/drinks.png") no-repeat;
+    background-size: cover;
+  }
+  .aside_10 {
+    background: url("../../img/menu/sous.png") no-repeat;
+    background-size: cover;
+  }
+  .aside_11 {
+    background: url("../../img/menu/sweets.png") no-repeat;
+    background-size: cover;
+  }
+@media(max-width:1050px){
+  .asidelist{
+    width: 50%;
+  }
+}
+@media(max-width:930px){
+  .heading {
+    font-size: 1rem;
+  }
+  .asidelist{
+    width: 40%;
+  }
+}
+@media(max-width:890px){
+  .asidelist{
+    display: none;
+  }
+}
